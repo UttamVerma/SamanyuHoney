@@ -1,0 +1,3859 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+ /* .theButton[disabled] {
+            background-color: yellowgreen;
+ } */
+.ancor {
+  color: white;
+  text-decoration: none;
+}
+.ancor:hover {
+  text-decoration: underline;
+}
+.breadCrumb {
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  height: 150px;
+  background-size: cover;
+  background-image: url(./images/honeycomb-texture\(yellow\).jpg);
+  padding-top: 37px;
+}
+
+.breadCrumbHeading {
+  width: 1150px;
+  margin: auto;
+}
+.breadCrumbsNavigation {
+  font-size: 13px;
+  padding: 8px 10px;
+  background-color: #777;
+  color: white;
+  width: 200px;
+  text-align: center;
+  margin-top: 35.5px;
+}
+.productDiscription {
+  width: 1150px;
+  margin: auto;
+  margin-top: 75px;
+  line-height: 22px;
+  font-size: 16px;
+  text-align: justify;
+}
+.productDiv {
+  width: 1150px;
+  /* border: 1px solid black; */
+  margin: auto;
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.productContent {
+  width: 49%;
+  line-height: 22px;
+  /* border: 1px solid blue; */
+}
+.productContent p {
+  line-height: 23px;
+}
+.productContent h2 {
+  margin-bottom: 25px;
+  color: #e7512f;
+}
+
+.form {
+  /* margin-left: 2%; */
+  width: 44%;
+  padding: 25px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  /* border: 1px solid rgb(89, 0, 255);     */
+}
+
+.productContent p {
+  margin-top: 11px;
+}
+.productContent li {
+  margin-top: 10px;
+}
+#liHead {
+  font-weight: 600;
+}
+.theButton {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 9px;
+  display: block;
+  margin: auto;
+  text-align: center;
+  margin-top: 10px;
+}
+/* .theButton :hover{
+  opacity: 0.7;
+} */
+
+.form h2 {
+  margin-bottom: 40px;
+  color: rgba(255, 149, 0, 0.852);
+  
+}
+.form p {
+  font-size: 19px;
+  margin-top: 11px;
+}
+.form input {
+  margin-top: 8px;
+  height: 28px;
+  width: 90%;
+  border-radius: 5px;
+  border: 1px solid gray;
+  text-decoration: none;
+}
+input:focus {
+  outline: none;
+}
+
+#textQuerry {
+  height: 90px;
+  width: 100%;
+  word-wrap: break-word;
+  /* word-wrap: break-word; */
+}
+.location {
+  width: 1150px;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.location h1 {
+  margin-top: 39px;
+  margin-bottom: 8px;
+}
+
+.cosemeticIndustry {
+  width: 1150px;
+  margin: auto;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+}
+.cosemeticIndustry h2 {
+  margin-top: 5px;
+  margin-bottom: 20px;
+  color: #e7512f;
+}
+.table_2 {
+  width: 1150px;
+  margin: auto;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.table_2 h2 {
+  margin-bottom: 25px;
+  color: #e7512f;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.th,
+td {
+  border: 1px solid #7c2929;
+  padding: 8px;
+  text-align: left;
+}
+
+.th {
+  background-color: #f2f2f2;
+}
+.parallex {
+  margin-top: 30px;
+  height: 190px;
+  width: 100%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-image: url(./images/honeycomb.jpg);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  overflow: hidden;
+}
+
+
+.contactButton {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 9px;
+  display: block;
+  /* margin: auto; */
+  /* text-align: center; */
+  margin-top: 10px;
+}
+.ancor2{
+  color: white;
+  text-decoration: none;
+}
+
+.navBar img {
+  height: 105px;
+  width: 100%;
+}
+.footer img {
+  margin-top: 50px;
+  height: 430px;
+  width: 100%;
+}
+
+.parentGridImages {
+  width: 1100px;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 33%);
+  align-items: stretch;
+  row-gap: 5px;
+  justify-content: space-between;
+  grid-auto-rows: 200px;
+}
+.gridImage {
+  width: 100%;
+  height: 100%;
+  border: 3px solid rgb(255, 153, 0);
+  background-size: cover;
+  object-fit: cover;
+}
+
+.gridTitle {
+  width: 1150px;
+  margin: auto;
+  margin-top: 41px;
+  margin-bottom: 9px;
+  color: #e7512f;
+}
+
+.logoParent{
+  margin-left: 40%;
+}
+
+.logo{
+  height: 80px;
+  width: 80px;
+  margin-top: 30px;
+  margin-bottom: 5px;
+  justify-content: center;
+  /* margin: auto; */
+
+
+}
+
+.certificate {
+  border: 2px solid #333;
+  padding: 20px;
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: #f9f9f9;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.info {
+  font-size: 18px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* line-height: 22px; */
+}
+
+.lisst2{
+  margin-top: 15px;
+  margin-left: 15px;
+  line-height: 22px;
+  padding: 10px;
+}
+.lisst2 li{
+  margin-top: 5px;
+}
+
+/* .logo {
+  max-width: 100px;
+  margin-top: 10px;
+} */
+
+.certificationHeading{
+  color: #e7512f;
+  width: 1150px;
+  margin: auto;
+  margin-top: 59px;
+  margin-bottom: 25px;
+}
+
+.theCertificate {
+  width: 1150px;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border: 2px dotted #ddd;
+  margin: auto;
+  margin-bottom: 60px;
+  /* border: 1px solid black; */
+  
+}
+
+th, .subTable {
+  border: 1px dotted #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+.locationDiv{
+  width: 1150px;
+  margin: auto;
+  margin-top: 50px;
+}
+.locationDiv h1{
+  color: #e7512f; 
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.locationDiv p{
+  font-size: 16px;
+  margin-top: 20px;
+  line-height: 22px;
+}
+
+.form textarea {
+  height: 90px;
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid gray;
+  word-wrap: break-word;
+  margin-top: 8px; 
+  outline: none;  
+}
+
+
+.form p {
+  font-size: 19px;
+  margin-top: 11px;
+}
+
+
+.form input,
+.form button {
+  margin-top: 8px;
+}
+
+
+/* ///////// */
+
+@media all and (max-width: 1200px) {
+  .breadCrumb {
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    
+    /* padding-left: 150px; */
+    padding-top: 37px;
+  }
+  /* .certificate{
+    width: 410px;
+  } */
+
+  .logoParent{
+    margin-left: 43%;
+  }
+
+  .breadCrumbHeading {
+    width: 900px;
+    margin: auto;
+  }
+
+  .breadCrumbsNavigation {
+    font-size: 13px;
+    padding: 8px 10px;
+    background-color: #777;
+    color: white;
+    width: 200px;
+    text-align: center;
+    margin-top: 35.5px;
+  }
+  .productDiscription {
+    width: 900px;
+    margin: auto;
+    margin-top: 75px;
+    line-height: 22px;
+    font-size: 14px;
+    text-align: justify;
+  }
+  .productDiv {
+    width: 900px;
+    /* border: 1px solid black; */
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .productContent {
+    width: 49%;
+    line-height: 20px;
+    
+    /* border: 1px solid blue; */
+  }
+  .productContent p {
+    line-height: 23px;
+  }
+  .productContent h2 {
+    margin-bottom: 25px;
+  }
+
+  .form {
+    width: 49%;
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* bor
+    border: 1px solid rgb(89, 0, 255);     */
+  }
+
+
+  .productContent p {
+    margin-top: 11px;
+  }
+  .productContent li {
+    margin-top: 10px;
+  }
+  #liHead {
+    font-weight: 600;
+  }
+  .theButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .form h2 {
+    margin-bottom: 40px;
+  }
+  .form p {
+    font-size: 19px;
+    margin-top: 11px;
+  }
+  .form input {
+    margin-top: 8px;
+    height: 28px;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    text-decoration: none;
+  }
+  input:focus {
+    outline: none;
+  }
+
+  #textQuerry {
+    height: 90px;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+  .location {
+    width: 900px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .location h1 {
+    margin-top: 39px;
+    margin-bottom: 8px;
+  }
+
+  .cosemeticIndustry {
+    width: 900px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .cosemeticIndustry h2 {
+    margin-top: 5px;
+    margin-bottom: 11px;
+  }
+  .table_2 {
+    width: 900px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 60px;
+  }
+
+  .table_2 h2 {
+    margin-bottom: 25px;
+  }
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .th,
+  td {
+    border: 1px solid #7c2929;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .th {
+    background-color: #f2f2f2;
+  }
+  .parallex {
+    margin-top: 30px;
+    height: 190px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+ 
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+  }
+
+  .contactButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    display: block;
+    /* margin: auto; */
+    /* text-align: center; */
+    margin-top: 10px;
+  }
+
+  .navBar img {
+    height: 105px;
+    width: 100%;
+  }
+  .footer img {
+    margin-top: 50px;
+    height: 430px;
+    width: 100%;
+  }
+
+  .parentGridImages {
+    width: 900px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    align-items: stretch;
+    row-gap: 5px;
+    justify-content: space-between;
+    grid-auto-rows: 300px;
+  }
+  .gridImage {
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgb(255, 153, 0);
+    background-size: cover;
+    object-fit: cover;
+  }
+
+  .gridTitle {
+    width: 900px;
+    margin: auto;
+    margin-top: 41px;
+    margin-bottom: 9px;
+  }
+  .theCertificate {
+    width: 900px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px dotted #ddd;
+    margin: auto;
+    margin-bottom: 60px;
+    /* border: 1px solid black; */
+    
+  }
+  .certificationHeading{
+    width: 900px;
+  }
+  .locationDiv{
+    width: 900px;
+  }
+}
+
+@media all and (max-width: 930px) {
+  .breadCrumb {
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    
+    /* padding-left: 150px; */
+    padding-top: 37px;
+  }
+
+  .breadCrumbHeading {
+    width: 700px;
+    margin: auto;
+  }
+
+  .breadCrumbsNavigation {
+    font-size: 13px;
+    padding: 8px 10px;
+    background-color: #777;
+    color: white;
+    width: 200px;
+    text-align: center;
+    margin-top: 35.5px;
+  }
+  .productDiscription {
+    width: 700px;
+    margin: auto;
+    margin-top: 75px;
+    line-height: 22px;
+    font-size: 14px;
+    text-align: justify;
+  }
+  .productDiv {
+    width: 700px;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .productContent {
+    width: 100%;
+    line-height: 20px;
+    /* border: 1px solid blue; */
+  }
+  .productContent p {
+    line-height: 23px;
+  }
+  .productContent h2 {
+    margin-bottom: 25px;
+  }
+
+  .form {
+    width: 100%;
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* border: 1px solid rgb(89, 0, 255);     */
+  }
+
+  .productContent p {
+    margin-top: 11px;
+  }
+  .productContent li {
+    margin-top: 10px;
+  }
+  #liHead {
+    font-weight: 600;
+  }
+  .theButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .form h2 {
+    margin-bottom: 40px;
+  }
+  .form p {
+    font-size: 19px;
+    margin-top: 11px;
+  }
+  .form input {
+    margin-top: 8px;
+    height: 28px;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    text-decoration: none;
+  }
+  input:focus {
+    outline: none;
+  }
+
+  #textQuerry {
+    height: 90px;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+  .location {
+    width: 700px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .location h1 {
+    margin-top: 39px;
+    margin-bottom: 8px;
+  }
+
+  .cosemeticIndustry {
+    width: 700px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .cosemeticIndustry h2 {
+    margin-top: 5px;
+    margin-bottom: 11px;
+  }
+  .table_2 {
+    width: 700px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 60px;
+  }
+
+  .table_2 h2 {
+    margin-bottom: 25px;
+  }
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .th,
+  td {
+    border: 1px solid #7c2929;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .th {
+    background-color: #f2f2f2;
+  }
+  .parallex {
+    margin-top: 30px;
+    height: 190px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+  }
+
+  .contactButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    display: block;
+    /* margin: auto; */
+    /* text-align: center; */
+    margin-top: 10px;
+  }
+
+  .navBar img {
+    height: 105px;
+    width: 100%;
+  }
+  .footer img {
+    margin-top: 50px;
+    height: 430px;
+    width: 100%;
+  }
+
+  .parentGridImages {
+    width: 700px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    align-items: stretch;
+    row-gap: 4px;
+    justify-content: space-between;
+    grid-auto-rows: 200px;
+  }
+  .gridImage {
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgb(255, 153, 0);
+    background-size: cover;
+    object-fit: cover;
+  }
+
+  .gridTitle {
+    width: 700px;
+    margin: auto;
+    margin-top: 41px;
+    margin-bottom: 9px;
+  }
+
+  .logoParent{
+    margin-left: 45%;
+  }
+  .theCertificate {
+    width: 700px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px dotted #ddd;
+    margin: auto;
+    margin-bottom: 60px;
+    /* border: 1px solid black; */
+    
+  }
+  .certificationHeading{
+    width: 700px;
+  }
+  .locationDiv{
+    width: 700px;
+  }
+
+}
+
+@media all and (max-width: 750px) {
+  .breadCrumb {
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    
+    padding-top: 37px;
+  }
+
+  .breadCrumbHeading {
+    width: 650px;
+    margin: auto;
+  }
+
+  .breadCrumbsNavigation {
+    font-size: 13px;
+    padding: 8px 10px;
+    background-color: #777;
+    color: white;
+    width: 200px;
+    text-align: center;
+    margin-top: 35.5px;
+  }
+  .productDiscription {
+    width: 650px;
+    margin: auto;
+    margin-top: 75px;
+    line-height: 22px;
+    font-size: 14px;
+    text-align: justify;
+  }
+  .productDiv {
+    width: 650px;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .productContent {
+    width: 100%;
+    line-height: 20px;
+    /* border: 1px solid blue; */
+  }
+  .productContent p {
+    line-height: 23px;
+  }
+  .productContent h2 {
+    margin-bottom: 25px;
+  }
+
+  .form {
+    width: 100%;
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* border: 1px solid rgb(89, 0, 255);     */
+  }
+
+  .productContent p {
+    margin-top: 11px;
+  }
+  .productContent li {
+    margin-top: 10px;
+  }
+  #liHead {
+    font-weight: 600;
+  }
+  .theButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .form h2 {
+    margin-bottom: 40px;
+  }
+  .form p {
+    font-size: 19px;
+    margin-top: 11px;
+  }
+  .form input {
+    margin-top: 8px;
+    height: 28px;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    text-decoration: none;
+  }
+  input:focus {
+    outline: none;
+  }
+
+  #textQuerry {
+    height: 90px;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+  .location {
+    width: 650px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .location h1 {
+    margin-top: 39px;
+    margin-bottom: 8px;
+  }
+
+  .cosemeticIndustry {
+    width: 650px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .cosemeticIndustry h2 {
+    margin-top: 5px;
+    margin-bottom: 11px;
+  }
+  .table_2 {
+    width: 650px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 60px;
+  }
+
+  .table_2 h2 {
+    margin-bottom: 25px;
+  }
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .th,
+  td {
+    border: 1px solid #7c2929;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .th {
+    background-color: #f2f2f2;
+  }
+  .parallex {
+    margin-top: 30px;
+    height: 190px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+  }
+
+  .contactButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    display: block;
+    /* margin: auto; */
+    /* text-align: center; */
+    margin-top: 10px;
+  }
+
+  .navBar img {
+    height: 105px;
+    width: 100%;
+  }
+  .footer img {
+    margin-top: 50px;
+    height: 430px;
+    width: 100%;
+  }
+
+  .parentGridImages {
+    width: 650px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    align-items: stretch;
+    row-gap: 2px;
+    justify-content: space-between;
+    grid-auto-rows: 200px;
+  }
+  .gridImage {
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgb(255, 153, 0);
+    background-size: cover;
+    object-fit: cover;
+  }
+
+  .gridTitle {
+    width: 650px;
+    margin: auto;
+    margin-top: 41px;
+    margin-bottom: 9px;
+  }
+  .theCertificate {
+    width: 650px;
+    border-collapse: collapse;
+    margin-top: 20px;
+    border: 2px dotted #ddd;
+    margin: auto;
+    margin-bottom: 60px;
+    /* border: 1px solid black; */
+    
+  }
+  .certificationHeading{
+    width: 650px;
+  }
+  .locationDiv{
+    width: 650px;
+  }
+
+  
+}
+
+@media all and (max-width: 680px) {
+  .breadCrumb {
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    
+    padding-top: 37px;
+  }
+
+  .breadCrumbHeading {
+    width: 630px;
+    margin: auto;
+  }
+
+  .breadCrumbsNavigation {
+    font-size: 13px;
+    padding: 8px 10px;
+    background-color: #777;
+    color: white;
+    width: 200px;
+    text-align: center;
+    margin-top: 35.5px;
+  }
+  .productDiscription {
+    width: 630px;
+    margin: auto;
+    margin-top: 75px;
+    line-height: 22px;
+    font-size: 14px;
+    text-align: justify;
+  }
+  .productDiv {
+    width: 630px;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .productContent {
+    width: 100%;
+    line-height: 20px;
+    /* border: 1px solid blue; */
+  }
+  .productContent p {
+    line-height: 23px;
+  }
+  .productContent h2 {
+    margin-bottom: 25px;
+  }
+
+  .form {
+    width: 100%;
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* border: 1px solid rgb(89, 0, 255);     */
+  }
+
+  .productContent p {
+    margin-top: 11px;
+  }
+  .productContent li {
+    margin-top: 10px;
+  }
+  #liHead {
+    font-weight: 600;
+  }
+  .theButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .form h2 {
+    margin-bottom: 40px;
+  }
+  .form p {
+    font-size: 19px;
+    margin-top: 11px;
+  }
+  .form input {
+    margin-top: 8px;
+    height: 28px;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    text-decoration: none;
+  }
+  input:focus {
+    outline: none;
+  }
+
+  #textQuerry {
+    height: 90px;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+  .location {
+    width: 630px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .location h1 {
+    margin-top: 39px;
+    margin-bottom: 8px;
+  }
+
+  .cosemeticIndustry {
+    width: 630px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .cosemeticIndustry h2 {
+    margin-top: 5px;
+    margin-bottom: 11px;
+  }
+  .table_2 {
+    width: 630px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 60px;
+  }
+
+  .table_2 h2 {
+    margin-bottom: 25px;
+  }
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .th,
+  td {
+    border: 1px solid #7c2929;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .th {
+    background-color: #f2f2f2;
+  }
+  .parallex {
+    margin-top: 30px;
+    height: 190px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+  }
+
+  .contactButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    display: block;
+    /* margin: auto; */
+    /* text-align: center; */
+    margin-top: 10px;
+  }
+
+  .navBar img {
+    height: 105px;
+    width: 100%;
+  }
+  .footer img {
+    margin-top: 50px;
+    height: 430px;
+    width: 100%;
+  }
+
+  .parentGridImages {
+    width: 630px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 49.5%);
+    align-items: stretch;
+    row-gap: 2px;
+    justify-content: space-between;
+    grid-auto-rows: 210px;
+  }
+  .gridImage {
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgb(255, 153, 0);
+    background-size: cover;
+    object-fit: cover;
+  }
+
+  .gridTitle {
+    width: 630px;
+    margin: auto;
+    margin-top: 41px;
+    margin-bottom: 9px;
+  }
+  #liHead {
+    margin-top: 30px;
+  }
+  .lisst {
+    margin-left: 15px;
+  }
+  .theCertificate {
+    width: 630px;
+
+  }
+  .certificationHeading{
+    width: 630px;
+  }
+  .locationDiv{
+    width: 630px;
+  }
+}
+
+@media all and (max-width: 650px) {
+  .certificate{
+    width: 500px;
+  }
+  .logoParent{
+    margin-left: 40%;
+  }
+  .breadCrumb {
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    
+    padding-top: 37px;
+  }
+
+  .breadCrumbHeading {
+    width: 600px;
+    margin: auto;
+  }
+
+  .breadCrumbsNavigation {
+    font-size: 13px;
+    padding: 8px 10px;
+    background-color: #777;
+    color: white;
+    width: 200px;
+    text-align: center;
+    margin-top: 35.5px;
+  }
+  .productDiscription {
+    width: 600px;
+    margin: auto;
+    margin-top: 75px;
+    line-height: 22px;
+    font-size: 14px;
+    text-align: justify;
+  }
+  .productDiv {
+    width: 600px;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .productContent {
+    width: 100%;
+    line-height: 20px;
+    /* border: 1px solid blue; */
+  }
+  .productContent p {
+    line-height: 23px;
+  }
+  .productContent h2 {
+    margin-bottom: 25px;
+  }
+
+  .form {
+    width: 100%;
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* border: 1px solid rgb(89, 0, 255);     */
+  }
+
+  .productContent p {
+    margin-top: 11px;
+  }
+  .productContent li {
+    margin-top: 10px;
+  }
+  #liHead {
+    font-weight: 600;
+  }
+  .theButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .form h2 {
+    margin-bottom: 40px;
+  }
+  .form p {
+    font-size: 19px;
+    margin-top: 11px;
+  }
+  .form input {
+    margin-top: 8px;
+    height: 28px;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    text-decoration: none;
+  }
+  input:focus {
+    outline: none;
+  }
+
+  #textQuerry {
+    height: 90px;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+  .location {
+    width: 600px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .location h1 {
+    margin-top: 39px;
+    margin-bottom: 8px;
+  }
+
+  .cosemeticIndustry {
+    width: 600px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .cosemeticIndustry h2 {
+    margin-top: 5px;
+    margin-bottom: 11px;
+  }
+  .table_2 {
+    width: 600px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 60px;
+  }
+
+  .table_2 h2 {
+    margin-bottom: 25px;
+  }
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .th,
+  td {
+    border: 1px solid #7c2929;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .th {
+    background-color: #f2f2f2;
+  }
+  .parallex {
+    margin-top: 30px;
+    height: 190px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+  }
+
+  .contactButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    display: block;
+    /* margin: auto; */
+    /* text-align: center; */
+    margin-top: 10px;
+  }
+
+  .navBar img {
+    height: 105px;
+    width: 100%;
+  }
+  .footer img {
+    margin-top: 50px;
+    height: 430px;
+    width: 100%;
+  }
+
+  .parentGridImages {
+    width: 600px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 49.5%);
+    align-items: stretch;
+    row-gap: 2px;
+    justify-content: space-between;
+    grid-auto-rows: 210px;
+  }
+  .gridImage {
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgb(255, 153, 0);
+    background-size: cover;
+    object-fit: cover;
+  }
+
+  .gridTitle {
+    width: 600px;
+    margin: auto;
+    margin-top: 41px;
+    margin-bottom: 9px;
+  }
+  #liHead {
+    margin-top: 30px;
+  }
+  .lisst {
+    margin-left: 15px;
+  }
+  .theCertificate {
+    width: 600px;
+  }
+  .certificationHeading{
+    width: 600px;
+  }
+  .locationDiv{
+    width: 600px;
+  }
+}
+
+@media all and (max-width: 620px) {
+  .breadCrumb {
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+   
+    padding-top: 37px;
+  }
+
+  .breadCrumbHeading {
+    width: 560px;
+    margin: auto;
+  }
+
+  .breadCrumbsNavigation {
+    font-size: 13px;
+    padding: 8px 10px;
+    background-color: #777;
+    color: white;
+    width: 200px;
+    text-align: center;
+    margin-top: 35.5px;
+  }
+  .productDiscription {
+    width: 560px;
+    margin: auto;
+    margin-top: 75px;
+    line-height: 22px;
+    font-size: 14px;
+    text-align: justify;
+  }
+  .productDiv {
+    width: 560px;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .productContent {
+    width: 100%;
+    line-height: 20px;
+    /* border: 1px solid blue; */
+  }
+  .productContent p {
+    line-height: 23px;
+  }
+  .productContent h2 {
+    margin-bottom: 25px;
+  }
+
+  .form {
+    width: 100%;
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* border: 1px solid rgb(89, 0, 255);     */
+  }
+
+  .productContent p {
+    margin-top: 11px;
+  }
+  .productContent li {
+    margin-top: 10px;
+  }
+  #liHead {
+    font-weight: 600;
+  }
+  .theButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .form h2 {
+    margin-bottom: 40px;
+  }
+  .form p {
+    font-size: 19px;
+    margin-top: 11px;
+  }
+  .form input {
+    margin-top: 8px;
+    height: 28px;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    text-decoration: none;
+  }
+  input:focus {
+    outline: none;
+  }
+
+  #textQuerry {
+    height: 90px;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+  .location {
+    width: 560px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .location h1 {
+    margin-top: 39px;
+    margin-bottom: 8px;
+  }
+
+  .cosemeticIndustry {
+    width: 560px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .cosemeticIndustry h2 {
+    margin-top: 5px;
+    margin-bottom: 11px;
+  }
+  .table_2 {
+    width: 560px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 60px;
+  }
+
+  .table_2 h2 {
+    margin-bottom: 25px;
+  }
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .th,
+  td {
+    border: 1px solid #7c2929;
+    padding: 8px;
+    text-align: left;
+  }
+
+  .th {
+    background-color: #f2f2f2;
+  }
+  .parallex {
+    margin-top: 30px;
+    height: 190px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+  }
+
+  .contactButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    display: block;
+    /* margin: auto; */
+    /* text-align: center; */
+    margin-top: 10px;
+  }
+
+  .navBar img {
+    height: 105px;
+    width: 100%;
+  }
+  .footer img {
+    margin-top: 50px;
+    height: 430px;
+    width: 100%;
+  }
+
+  .parentGridImages {
+    width: 560px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 49.5%);
+    align-items: stretch;
+    row-gap: 2px;
+    justify-content: space-between;
+    grid-auto-rows: 180px;
+  }
+
+  .gridImage {
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgb(255, 153, 0);
+    background-size: cover;
+    object-fit: cover;
+  }
+
+  .gridTitle {
+    width: 560px;
+    margin: auto;
+    margin-top: 41px;
+    margin-bottom: 9px;
+  }
+
+  #liHead {
+    margin-top: 30px;
+  }
+  .lisst {
+    margin-left: 15px;
+  }
+  .theCertificate {
+    width: 560px;
+
+  }
+  .certificationHeading{
+    width: 560px;
+  }
+  .locationDiv{
+    width: 560px;
+  }
+}
+
+@media all and (max-width: 580px) {
+  .breadCrumb {
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+   
+    padding-top: 37px;
+  }
+
+  .breadCrumbHeading {
+    width: 520px;
+    margin: auto;
+  }
+
+  .breadCrumbsNavigation {
+    font-size: 13px;
+    padding: 8px 10px;
+    background-color: #777;
+    color: white;
+    width: 200px;
+    text-align: center;
+    margin-top: 35.5px;
+  }
+  .productDiscription {
+    width: 520px;
+    margin: auto;
+    margin-top: 75px;
+    line-height: 22px;
+    font-size: 14px;
+    text-align: justify;
+  }
+  .productDiv {
+    width: 520px;
+    margin: auto;
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .productContent {
+    width: 100%;
+    line-height: 20px;
+    /* border: 1px solid blue; */
+  }
+  .productContent p {
+    line-height: 23px;
+  }
+  .productContent h2 {
+    margin-bottom: 25px;
+  }
+
+  .form {
+    width: 100%;
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* border: 1px solid rgb(89, 0, 255);     */
+  }
+
+  .productContent p {
+    margin-top: 11px;
+  }
+  .productContent li {
+    margin-top: 10px;
+  }
+  #liHead {
+    font-weight: 600;
+  }
+  .theButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .form h2 {
+    margin-bottom: 40px;
+  }
+  .form p {
+    font-size: 19px;
+    margin-top: 11px;
+  }
+  .form input {
+    margin-top: 8px;
+    height: 28px;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    text-decoration: none;
+  }
+  input:focus {
+    outline: none;
+  }
+
+  #textQuerry {
+    height: 90px;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+  .location {
+    width: 520px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .location h1 {
+    margin-top: 39px;
+    margin-bottom: 8px;
+  }
+
+  .cosemeticIndustry {
+    width: 520px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .cosemeticIndustry h2 {
+    margin-top: 5px;
+    margin-bottom: 19px;
+  }
+  .table_2 {
+    width: 520px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .table_2 h2 {
+    margin-bottom: 19px;
+  }
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .th,
+  td {
+    border: 1px solid #7c2929;
+    padding: 8px;
+    text-align: left;
+    font-size: 13px;
+  }
+
+  .th {
+    background-color: #f2f2f2;
+  }
+  .parallex {
+    margin-top: 30px;
+    height: 190px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+  }
+
+  .contactButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    display: block;
+    margin-top: 10px;
+  }
+
+  .navBar img {
+    height: 105px;
+    width: 100%;
+  }
+  .footer img {
+    margin-top: 50px;
+    height: 430px;
+    width: 100%;
+  }
+
+  .parentGridImages {
+    width: 520px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 49.5%);
+    align-items: stretch;
+    row-gap: 2px;
+    justify-content: space-between;
+    grid-auto-rows: 180px;
+  }
+
+  .gridImage {
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgb(255, 153, 0);
+    background-size: cover;
+    object-fit: cover;
+  }
+
+  .gridTitle {
+    width: 520px;
+    margin: auto;
+    margin-top: 41px;
+    margin-bottom: 9px;
+  }
+
+  #liHead {
+    margin-top: 30px;
+  }
+  .lisst {
+    margin-left: 15px;
+  }
+  .theCertificate {
+    width: 520px;
+
+  }
+  .certificationHeading{
+    width: 520px;
+  }
+  .locationDiv{
+    width: 520px;
+  }
+}
+
+@media all and (max-width: 550px) {
+  .breadCrumb {
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    
+    padding-top: 37px;
+  }
+  .certificate{
+    width: 440px;
+  }
+
+  .logoParent{
+    margin-left: 38%;
+  }
+
+  .breadCrumbHeading {
+    width: 490px;
+    margin: auto;
+  }
+
+  .breadCrumbsNavigation {
+    font-size: 13px;
+    padding: 8px 10px;
+    background-color: #777;
+    color: white;
+    width: 200px;
+    text-align: center;
+    margin-top: 35.5px;
+  }
+  .productDiscription {
+    width: 490px;
+    margin: auto;
+    margin-top: 75px;
+    line-height: 22px;
+    font-size: 14px;
+    text-align: justify;
+  }
+  .productDiv {
+    width: 490px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .productContent {
+    width: 100%;
+    line-height: 20px;
+    /* border: 1px solid blue; */
+  }
+  .productContent p {
+    line-height: 23px;
+  }
+  .productContent h2 {
+    margin-bottom: 25px;
+  }
+
+  .form {
+    width: 100%;
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* border: 1px solid rgb(89, 0, 255);     */
+  }
+
+  .productContent p {
+    margin-top: 11px;
+  }
+  .productContent li {
+    margin-top: 10px;
+  }
+  #liHead {
+    font-weight: 600;
+  }
+  .theButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .form h2 {
+    margin-bottom: 40px;
+  }
+  .form p {
+    font-size: 19px;
+    margin-top: 11px;
+  }
+  .form input {
+    margin-top: 8px;
+    height: 28px;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    text-decoration: none;
+  }
+  input:focus {
+    outline: none;
+  }
+
+  #textQuerry {
+    height: 90px;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+  .location {
+    width: 490px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .location h1 {
+    margin-top: 39px;
+    margin-bottom: 8px;
+  }
+
+  .cosemeticIndustry {
+    width: 490px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .cosemeticIndustry h2 {
+    margin-top: 5px;
+    margin-bottom: 19px;
+  }
+  .table_2 {
+    width: 490px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .table_2 h2 {
+    margin-bottom: 19px;
+  }
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .th,
+  td {
+    border: 1px solid #7c2929;
+    padding: 8px;
+    text-align: left;
+    font-size: 13px;
+  }
+
+  .th {
+    background-color: #f2f2f2;
+  }
+  .parallex {
+    margin-top: 30px;
+    height: 190px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+  }
+
+  .contactButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    display: block;
+    margin-top: 10px;
+  }
+
+  .navBar img {
+    height: 105px;
+    width: 100%;
+  }
+  .footer img {
+    margin-top: 50px;
+    height: 430px;
+    width: 100%;
+  }
+
+  .parentGridImages {
+    width: 490px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 49.5%);
+    align-items: stretch;
+    row-gap: 2px;
+    justify-content: space-between;
+    grid-auto-rows: 180px;
+  }
+
+  .gridImage {
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgb(255, 153, 0);
+    background-size: cover;
+    object-fit: cover;
+  }
+
+  .gridTitle {
+    width: 490px;
+    margin: auto;
+    margin-top: 41px;
+    margin-bottom: 9px;
+  }
+
+  #liHead {
+    margin-top: 30px;
+  }
+  .lisst {
+    margin-left: 15px;
+  }
+  .theCertificate {
+    width: 490px;
+
+  }
+  .certificationHeading{
+    width: 490px;
+  }
+  .locationDiv{
+    width: 490px;
+  }
+}
+
+@media all and (max-width: 520px) {
+  .breadCrumb {
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+   
+    padding-top: 37px;
+  }
+
+  .breadCrumbHeading {
+    width: 470px;
+    margin: auto;
+  }
+
+  .breadCrumbsNavigation {
+    font-size: 13px;
+    padding: 8px 10px;
+    background-color: #777;
+    color: white;
+    width: 200px;
+    text-align: center;
+    margin-top: 35.5px;
+  }
+  .productDiscription {
+    width: 470px;
+    margin: auto;
+    margin-top: 75px;
+    line-height: 22px;
+    font-size: 14px;
+    text-align: justify;
+  }
+  .productDiv {
+    width: 470px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .productContent {
+    width: 100%;
+    line-height: 20px;
+    /* border: 1px solid blue; */
+  }
+  .productContent p {
+    line-height: 23px;
+  }
+  .productContent h2 {
+    margin-bottom: 25px;
+  }
+
+  .form {
+    width: 100%;
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* border: 1px solid rgb(89, 0, 255);     */
+  }
+
+  .productContent p {
+    margin-top: 11px;
+  }
+  .productContent li {
+    margin-top: 10px;
+  }
+  #liHead {
+    font-weight: 600;
+  }
+  .theButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .form h2 {
+    margin-bottom: 40px;
+  }
+  .form p {
+    font-size: 19px;
+    margin-top: 11px;
+  }
+  .form input {
+    margin-top: 8px;
+    height: 28px;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    text-decoration: none;
+  }
+  input:focus {
+    outline: none;
+  }
+
+  #textQuerry {
+    height: 90px;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+  .location {
+    width: 470px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .location h1 {
+    margin-top: 39px;
+    margin-bottom: 8px;
+  }
+
+  .cosemeticIndustry {
+    width: 470px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .cosemeticIndustry h2 {
+    margin-top: 5px;
+    margin-bottom: 19px;
+  }
+  .table_2 {
+    width: 470px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .table_2 h2 {
+    margin-bottom: 19px;
+  }
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .th,
+  td {
+    border: 1px solid #7c2929;
+    padding: 8px;
+    text-align: left;
+    font-size: 13px;
+  }
+
+  .th {
+    background-color: #f2f2f2;
+  }
+  .parallex {
+    margin-top: 30px;
+    height: 190px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+  }
+
+  .contactButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    display: block;
+    margin-top: 10px;
+  }
+
+  .navBar img {
+    height: 105px;
+    width: 100%;
+  }
+  .footer img {
+    margin-top: 50px;
+    height: 430px;
+    width: 100%;
+  }
+
+  .parentGridImages {
+    width: 470px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 49.5%);
+    align-items: stretch;
+    row-gap: 2px;
+    justify-content: space-between;
+    grid-auto-rows: 180px;
+  }
+
+  .gridImage {
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgb(255, 153, 0);
+    background-size: cover;
+    object-fit: cover;
+  }
+
+  .gridTitle {
+    width: 470px;
+    margin: auto;
+    margin-top: 41px;
+    margin-bottom: 9px;
+  }
+
+  #liHead {
+    margin-top: 30px;
+  }
+  .lisst {
+    margin-left: 15px;
+  }
+  .theCertificate {
+    width: 470px;
+
+  }
+  .certificationHeading{
+    width: 470px;
+  }
+  .locationDiv{
+    width: 470px;
+  }
+}
+
+@media all and (max-width: 490px) {
+  .breadCrumb {
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    
+    padding-top: 37px;
+  }
+
+  .certificate{
+    width: 400px;
+  }
+
+  .logoParent{
+    margin-left: 38%;
+  }
+
+  .breadCrumbHeading {
+    width: 410px;
+    margin: auto;
+  }
+
+  .breadCrumbsNavigation {
+    font-size: 13px;
+    padding: 8px 10px;
+    background-color: #777;
+    color: white;
+    width: 200px;
+    text-align: center;
+    margin-top: 35.5px;
+  }
+  .productDiscription {
+    width: 410px;
+    margin: auto;
+    margin-top: 75px;
+    line-height: 22px;
+    font-size: 14px;
+    text-align: justify;
+  }
+  .productDiv {
+    width: 410px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .productContent {
+    width: 100%;
+    line-height: 20px;
+    /* border: 1px solid blue; */
+  }
+  .productContent p {
+    line-height: 23px;
+  }
+  .productContent h2 {
+    margin-bottom: 25px;
+  }
+
+  .form {
+    width: 100%;
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* border: 1px solid rgb(89, 0, 255);     */
+  }
+
+  .productContent p {
+    margin-top: 11px;
+  }
+  .productContent li {
+    margin-top: 10px;
+  }
+  #liHead {
+    font-weight: 600;
+  }
+  .theButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .form h2 {
+    margin-bottom: 40px;
+  }
+  .form p {
+    font-size: 19px;
+    margin-top: 11px;
+  }
+  .form input {
+    margin-top: 8px;
+    height: 28px;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    text-decoration: none;
+  }
+  input:focus {
+    outline: none;
+  }
+
+  #textQuerry {
+    height: 90px;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+  .location {
+    width: 410px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .location h1 {
+    margin-top: 39px;
+    margin-bottom: 8px;
+  }
+
+  .cosemeticIndustry {
+    width: 410px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .cosemeticIndustry h2 {
+    margin-top: 5px;
+    margin-bottom: 19px;
+  }
+  .table_2 {
+    width: 410px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .table_2 h2 {
+    margin-bottom: 19px;
+  }
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .th,
+  td {
+    border: 1px solid #7c2929;
+    padding: 8px;
+    text-align: left;
+    font-size: 13px;
+  }
+
+  .th {
+    background-color: #f2f2f2;
+  }
+  .parallex {
+    margin-top: 30px;
+    height: 190px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+  }
+
+  .contactButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    display: block;
+    margin-top: 10px;
+  }
+
+  .navBar img {
+    height: 105px;
+    width: 100%;
+  }
+  .footer img {
+    margin-top: 50px;
+    height: 430px;
+    width: 100%;
+  }
+
+  .parentGridImages {
+    width: 410px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 49.5%);
+    align-items: stretch;
+    row-gap: 2px;
+    justify-content: space-between;
+    grid-auto-rows: 150px;
+  }
+
+  .gridImage {
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgb(255, 153, 0);
+    background-size: cover;
+    object-fit: cover;
+  }
+
+  .gridTitle {
+    width: 410px;
+    margin: auto;
+    margin-top: 41px;
+    margin-bottom: 9px;
+  }
+
+  #liHead {
+    margin-top: 30px;
+  }
+  .lisst {
+    margin-left: 15px;
+  }
+
+  .logoParent{
+    margin-left: 38%;
+  }
+  .theCertificate {
+    width: 410px;
+
+  }
+  .certificationHeading{
+    width: 410px;
+  }
+  .locationDiv{
+    width: 410px;
+  }
+
+}
+
+@media all and (max-width: 430px) {
+  .breadCrumb {
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+   
+    padding-top: 37px;
+  }
+
+  .certificate{
+    width: 350px;
+  }
+
+  .logoParent{
+    margin-left: 38%;
+  }
+
+  .breadCrumbHeading {
+    width: 360px;
+    margin: auto;
+  }
+
+  .breadCrumbsNavigation {
+    font-size: 13px;
+    padding: 8px 10px;
+    background-color: #777;
+    color: white;
+    width: 200px;
+    text-align: center;
+    margin-top: 35.5px;
+  }
+  .productDiscription {
+    width: 360px;
+    margin: auto;
+    margin-top: 75px;
+    line-height: 22px;
+    font-size: 14px;
+    text-align: justify;
+  }
+  .productDiv {
+    width: 360px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .productContent {
+    width: 100%;
+    line-height: 20px;
+    /* border: 1px solid blue; */
+  }
+  .productContent p {
+    line-height: 23px;
+  }
+  .productContent h2 {
+    margin-bottom: 25px;
+  }
+
+  .form {
+    width: 100%;
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* border: 1px solid rgb(89, 0, 255);     */
+  }
+
+  .productContent p {
+    margin-top: 11px;
+  }
+  .productContent li {
+    margin-top: 10px;
+  }
+  #liHead {
+    font-weight: 600;
+  }
+  .theButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .form h2 {
+    margin-bottom: 40px;
+  }
+  .form p {
+    font-size: 19px;
+    margin-top: 11px;
+  }
+  .form input {
+    margin-top: 8px;
+    height: 28px;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    text-decoration: none;
+  }
+  input:focus {
+    outline: none;
+  }
+
+  #textQuerry {
+    height: 90px;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+  .location {
+    width: 360px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .location h1 {
+    margin-top: 39px;
+    margin-bottom: 8px;
+  }
+
+  .cosemeticIndustry {
+    width: 360px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .cosemeticIndustry h2 {
+    margin-top: 5px;
+    margin-bottom: 19px;
+  }
+  .table_2 {
+    width: 360px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .table_2 h2 {
+    margin-bottom: 19px;
+  }
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .th,
+  td {
+    border: 1px solid #7c2929;
+    padding: 8px;
+    text-align: left;
+    font-size: 13px;
+  }
+
+  .th {
+    background-color: #f2f2f2;
+  }
+  .parallex {
+    margin-top: 30px;
+    height: 190px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+  }
+
+  .contactButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    display: block;
+    margin-top: 10px;
+  }
+
+  .navBar img {
+    height: 105px;
+    width: 100%;
+  }
+  .footer img {
+    margin-top: 50px;
+    height: 430px;
+    width: 100%;
+  }
+
+  .parentGridImages {
+    width: 360px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 49.5%);
+    align-items: stretch;
+    row-gap: 2px;
+    justify-content: space-between;
+    grid-auto-rows: 150px;
+  }
+
+  .gridImage {
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgb(255, 153, 0);
+    background-size: cover;
+    object-fit: cover;
+  }
+
+  .gridTitle {
+    width: 380px;
+    margin: auto;
+    margin-top: 41px;
+    margin-bottom: 9px;
+  }
+
+  #liHead {
+    margin-top: 30px;
+  }
+  .lisst {
+    margin-left: 15px;
+  }
+  .theCertificate {
+    width: 360px;
+
+  }
+  .certificationHeading{
+    width: 360px;
+  }
+  .locationDiv{
+    width: 360px;
+  }
+}
+
+@media all and (max-width: 385px) {
+  .breadCrumb {
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    
+    padding-top: 37px;
+  }
+
+  .certificate{
+    width: 320px;
+  }
+
+
+  .logoParent{
+    margin-left: 38%;
+  }
+  .title {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+
+  .breadCrumbHeading {
+    width: 320px;
+    /* font-size: 20px; */
+    margin: auto;
+  }
+  .breadCrumbHeading h1{
+    font-size: 35px;
+  }
+
+  .breadCrumbsNavigation {
+    font-size: 13px;
+    padding: 8px 10px;
+    background-color: #777;
+    color: white;
+    width: 200px;
+    text-align: center;
+    margin-top: 42px;
+  }
+  .productDiscription {
+    width: 320px;
+    margin: auto;
+    margin-top: 75px;
+    line-height: 22px;
+    font-size: 14px;
+    text-align: justify;
+  }
+  .productDiv {
+    width: 320px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .productContent {
+    width: 100%;
+    line-height: 20px;
+    /* border: 1px solid blue; */
+  }
+  .productContent p {
+    line-height: 23px;
+  }
+  .productContent h2 {
+    margin-bottom: 25px;
+  }
+
+  .form {
+    width: 100%;
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* border: 1px solid rgb(89, 0, 255);     */
+  }
+
+  .productContent p {
+    margin-top: 11px;
+  }
+  .productContent li {
+    margin-top: 10px;
+  }
+  #liHead {
+    font-weight: 600;
+  }
+  .theButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .form h2 {
+    margin-bottom: 40px;
+  }
+  .form p {
+    font-size: 19px;
+    margin-top: 11px;
+  }
+  .form input {
+    margin-top: 8px;
+    height: 28px;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    text-decoration: none;
+  }
+  input:focus {
+    outline: none;
+  }
+
+  #textQuerry {
+    height: 90px;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+  .location {
+    width: 320px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .location h1 {
+    margin-top: 39px;
+    margin-bottom: 8px;
+  }
+
+  .cosemeticIndustry {
+    width: 320px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .cosemeticIndustry h2 {
+    margin-top: 5px;
+    margin-bottom: 19px;
+  }
+  .table_2 {
+    width: 320px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .table_2 h2 {
+    margin-bottom: 19px;
+  }
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .th,
+  td {
+    border: 1px solid #7c2929;
+    padding: 8px;
+    text-align: left;
+    font-size: 13px;
+  }
+
+  .th {
+    background-color: #f2f2f2;
+  }
+  .parallex {
+    margin-top: 30px;
+    height: 190px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+  }
+
+  .contactButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    display: block;
+    margin-top: 10px;
+  }
+
+  .navBar img {
+    height: 105px;
+    width: 100%;
+  }
+  .footer img {
+    margin-top: 50px;
+    height: 430px;
+    width: 100%;
+  }
+
+  .parentGridImages {
+    width: 320px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 49.5%);
+    align-items: stretch;
+    row-gap: 2px;
+    justify-content: space-between;
+    grid-auto-rows: 120px;
+  }
+
+  .gridImage {
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgb(255, 153, 0);
+    background-size: cover;
+    object-fit: cover;
+  }
+
+  .gridTitle {
+    width: 320px;
+    margin: auto;
+    margin-top: 41px;
+    margin-bottom: 9px;
+  }
+
+  #liHead {
+    margin-top: 30px;
+  }
+  .lisst {
+    margin-left: 15px;
+  }
+  .theCertificate {
+    width: 320px;
+
+  }
+  .certificationHeading{
+    width: 320px;
+  }
+  .locationDiv{
+    width: 320px;
+  }
+}
+
+@media all and (max-width: 340px) {
+  .breadCrumb {
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    
+    padding-top: 37px;
+  }
+  .certificate{
+    width: 290px;
+  }
+
+  .logoParent{
+    margin-left: 31%;
+  }
+
+  .breadCrumbHeading {
+    width: 290px;
+    margin: auto;
+  }
+
+  .breadCrumbsNavigation {
+    font-size: 13px;
+    padding: 8px 10px;
+    background-color: #777;
+    color: white;
+    width: 200px;
+    text-align: center;
+    /* margin-top: 35.5px; */
+  }
+  .productDiscription {
+    width: 290px;
+    margin: auto;
+    margin-top: 75px;
+    line-height: 22px;
+    font-size: 13px;
+    text-align: justify;
+  }
+  .productDiv {
+    width: 290px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+    /* font-size: 13px; */
+  }
+  .productContent {
+    width: 100%;
+    line-height: 20px;
+    /* border: 1px solid blue; */
+  }
+  .productContent p {
+    line-height: 23px;
+    font-size: 13px;
+  }
+  .productContent h2 {
+    margin-bottom: 25px;
+  }
+  .lisst {
+    font-size: 14px;
+  }
+
+  .form {
+    width: 100%;
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* border: 1px solid rgb(89, 0, 255);     */
+  }
+
+  .productContent p {
+    margin-top: 11px;
+  }
+  .productContent li {
+    margin-top: 10px;
+  }
+  #liHead {
+    font-weight: 600;
+  }
+  .theButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .form h2 {
+    margin-bottom: 40px;
+    font-size: 24px;
+  }
+  .form p {
+    font-size: 15px;
+    margin-top: 11px;
+  }
+  .form input {
+    margin-top: 8px;
+    height: 28px;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    text-decoration: none;
+  }
+  input:focus {
+    outline: none;
+  }
+
+  #textQuerry {
+    height: 90px;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+  .location {
+    width: 290px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .location h1 {
+    margin-top: 39px;
+    margin-bottom: 8px;
+  }
+
+  .cosemeticIndustry {
+    width: 290px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .cosemeticIndustry h2 {
+    margin-top: 5px;
+    margin-bottom: 19px;
+  }
+  .table_2 {
+    width: 290px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .table_2 h2 {
+    margin-bottom: 19px;
+  }
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .th,
+  td {
+    border: 1px solid #7c2929;
+    padding: 8px;
+    text-align: left;
+    font-size: 12px;
+  }
+
+  .th {
+    background-color: #f2f2f2;
+  }
+  .parallex {
+    margin-top: 30px;
+    height: 190px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+  }
+
+  .contactButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    display: block;
+    margin-top: 10px;
+  }
+
+  .navBar img {
+    height: 105px;
+    width: 100%;
+  }
+  .footer img {
+    margin-top: 50px;
+    height: 430px;
+    width: 100%;
+  }
+
+  .parentGridImages {
+    width: 290px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 49.5%);
+    align-items: stretch;
+    row-gap: 2px;
+    justify-content: space-between;
+    grid-auto-rows: 120px;
+  }
+
+  .gridImage {
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgb(255, 153, 0);
+    background-size: cover;
+    object-fit: cover;
+  }
+
+  .gridTitle {
+    width: 290px;
+    margin: auto;
+    margin-top: 41px;
+    margin-bottom: 9px;
+  }
+
+  #liHead {
+    margin-top: 30px;
+  }
+  .lisst {
+    margin-left: 15px;
+  }
+  .theCertificate {
+    width: 290px;
+
+  }
+  .certificationHeading{
+    width: 290px;
+  }
+  .locationDiv{
+    width: 290px;
+  }
+}
+
+@media all and (max-width: 312px) {
+  .breadCrumb {
+    color: white;
+    font-size: 20px;
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    padding-top: 37px;
+  }
+
+  .certificate{
+    width: 250px;
+  }
+
+  .logoParent{
+    margin-left: 30%;
+  }
+  .title {
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  .info{
+    font-size: 14px;
+  }
+  .lisst2{
+    font-size: 14px;
+  }
+
+  .breadCrumbHeading {
+    width: 260px;
+    margin: auto;
+  }
+  .breadCrumbHeading h1{
+    font-size: 32px;
+  }
+  
+
+  .breadCrumbsNavigation {
+    font-size: 13px;
+    padding: 8px 10px;
+    background-color: #777;
+    color: white;
+    width: 200px;
+    text-align: center;
+    margin-top: 46 px;
+  }
+  .productDiscription {
+    width: 260px;
+    margin: auto;
+    margin-top: 75px;
+    line-height: 22px;
+    font-size: 13px;
+    text-align: justify;
+  }
+  .productDiv {
+    width: 260px;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 50px;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .productContent {
+    width: 100%;
+    line-height: 20px;
+    /* border: 1px solid blue; */
+  }
+  .productContent p {
+    line-height: 23px;
+  }
+  .productContent h2 {
+    margin-bottom: 25px;
+ 
+  }
+
+  .form {
+    width: 100%;
+    padding: 30px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* border: 1px solid rgb(89, 0, 255);     */
+  }
+
+  .productContent p {
+    margin-top: 11px;
+  }
+  .productContent li {
+    margin-top: 10px;
+  }
+  #liHead {
+    font-weight: 600;
+  }
+  .theButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-top: 10px;
+  }
+
+  .form h2 {
+    margin-bottom: 40px;
+  }
+  .form p {
+    font-size: 17px;
+    margin-top: 11px;
+  }
+  .form input {
+    margin-top: 8px;
+    height: 28px;
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    text-decoration: none;
+  }
+  input:focus {
+    outline: none;
+  }
+
+  #textQuerry {
+    height: 90px;
+    max-width: 100%;
+    word-wrap: break-word;
+  }
+  .location {
+    width: 260px;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+  }
+  .location h1 {
+    margin-top: 39px;
+    margin-bottom: 8px;
+  }
+
+  .cosemeticIndustry {
+    width: 260px;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    margin-top: 60px;
+  }
+  .cosemeticIndustry h2 {
+    margin-top: 5px;
+    margin-bottom: 19px;
+  }
+  .table_2 {
+    width: 260px;
+    margin: auto;
+    justify-content: center;
+    margin-top: 40px;
+  }
+
+  .table_2 h2 {
+    margin-bottom: 19px;
+  }
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    align-items: center;
+    margin-top: 40px;
+  }
+
+  .th,
+  td {
+    border: 1px solid #7c2929;
+    padding: 8px;
+    text-align: left;
+    font-size: 12px;
+  }
+
+  .th {
+    background-color: #f2f2f2;
+  }
+  .parallex {
+    margin-top: 30px;
+    height: 190px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+  }
+
+  .contactButton {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 30px;
+    border: none;
+    cursor: pointer;
+    border-radius: 9px;
+    display: block;
+    margin-top: 10px;
+  }
+
+  .navBar img {
+    height: 105px;
+    width: 100%;
+  }
+  .footer img {
+    margin-top: 50px;
+    height: 430px;
+    width: 100%;
+  }
+
+  .parentGridImages {
+    width: 260px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: repeat(1, 90%);
+    align-items: stretch;
+    row-gap: 2px;
+    justify-content: space-between;
+    grid-auto-rows: 150px;
+  }
+
+  .gridImage {
+    width: 100%;
+    height: 100%;
+    border: 3px solid rgb(255, 153, 0);
+    background-size: cover;
+    object-fit: cover;
+  }
+
+  .gridTitle {
+    width: 260px;
+    margin: auto;
+    margin-top: 41px;
+    margin-bottom: 9px;
+ 
+  }
+
+  #liHead {
+    margin-top: 30px;
+  }
+  .lisst {
+    margin-left: 15px;
+  }
+  .theCertificate {
+    width: 260px;
+
+  }
+  .certificationHeading{
+    width: 260px;
+  }
+  .locationDiv{
+    width: 260px;
+  }
+  .locationDiv p{
+    font-size: 14px;
+  }
+}
